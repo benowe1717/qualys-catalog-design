@@ -1,0 +1,24 @@
+# Config for qualys-catalog-design
+#
+# This is a YAML file: see [1] for a quick introduction. Note in particular
+# that *indentation is important*: all the elements of a list or dictionary
+# should have the same indentation.
+#
+# [1] https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
+
+files:
+  templates_folder: 'templates/'
+  output_folder: 'output/'
+  output_file: 'index.html'
+  core_file: './core_learning_paths.json'
+  application_file: './application_learning_paths.json'
+base_urls:
+  local:
+    css: './output.css'
+    logo: './qualys-training-and-certification.png'
+  stage:
+    css: 'https://qualys.stage.sumtotal.host/Core/38.sumtfile'
+    logo: 'https://qualys.stage.sumtotal.host/Core/37.sumtfile'
+  production:
+    css: 'https://qualys.sumtotal.host/Core/38.sumtfile'
+    logo: 'https://qualys.sumtotal.host/Core/37.sumtfile'

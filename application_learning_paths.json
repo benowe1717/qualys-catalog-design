@@ -1,0 +1,241 @@
+[
+    {
+        "name": "VMDR Learning Path",
+        "courses": [
+            {
+                "course_name": "Vulnerability Management",
+                "course_type": "foundation",
+                "course_links": {
+                    "self-paced": "#"
+                }
+            },
+            {
+                "course_name": "VMDR Onboarding",
+                "course_type": "onboarding",
+                "course_links": {
+                    "self-paced": "#"
+                }
+            },
+            {
+                "course_name": "Vulnerability Detection and Response (VMDR)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "CyberSecurity Asset Management (CSAM)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Cloud Agent (CA)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Scanning Strategies and Best Practices (SSBP)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Reporting Strategies and Best Practices (RSBP)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Patch Management (PM)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Attack Surface Management Learning Path",
+        "courses": [
+            {
+                "course_name": "EASM Onboarding",
+                "course_type": "onboarding",
+                "course_links": {
+                    "self-paced": "#"
+                }
+            },
+            {
+                "course_name": "CyberSecurity Asset Management (CSAM)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Cloud Agent (CA)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Risk Remediation Learning Path",
+        "courses": [
+            {
+                "course_name": "Patch Management Onboarding",
+                "course_type": "onboarding",
+                "course_links": {
+                    "self-paced": "#"
+                }
+            },
+            {
+                "course_name": "Cloud Agent (CA)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Patch Management (PM)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Custom Assessment and Remediation",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "exam": "#"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Policy Compliance Learning Path",
+        "courses": [
+            {
+                "course_name": "Policy Compliance Foundations",
+                "course_type": "foundation",
+                "course_links": {
+                    "self-paced": "#"
+                }
+            },
+            {
+                "course_name": "Policy Compliance (PC)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "File Integrity Monitoring (FIM)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Custom Assessment and Remediation",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "exam": "#"
+                }
+            }
+        ]
+    },
+    {
+        "name": "PCI Compliance Learning Path",
+        "courses": [
+            {
+                "course_name": "PCI Compliance Foundations",
+                "course_type": "foundation",
+                "course_links": {
+                    "self-paced": "#"
+                }
+            },
+            {
+                "course_name": "PCI Compliance (PCI)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "exam": "#"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Application and Security Learning Path",
+        "courses": [
+            {
+                "course_name": "Web Application Scanning (WAS)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "exam": "#"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Cloud Security Learning Path",
+        "courses": [
+            {
+                "course_name": "TotalCloud Onboarding",
+                "course_type": "onboarding",
+                "course_links": {
+                    "self-paced": "#"
+                }
+            },
+            {
+                "course_name": "TotalCloud",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Container Security",
+                "course_type": "specialist",
+                "course_links": {
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            }
+        ]
+    }
+]

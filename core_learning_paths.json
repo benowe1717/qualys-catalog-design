@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Essential Learning Path",
+        "courses": [
+            {
+                "course_name": "Qualys TruRisk Enterprise Platform Foundations",
+                "course_type": "foundation",
+                "course_links": {
+                    "self-paced": "#"
+                }
+            },
+            {
+                "course_name": "Qualys Sensors Foundations",
+                "course_type": "foundation",
+                "course_links": {
+                    "self-paced": "#"
+                }
+            }
+        ]
+    }
+]
