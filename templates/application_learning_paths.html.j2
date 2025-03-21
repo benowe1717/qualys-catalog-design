@@ -9,19 +9,15 @@
                 <div>
                     {% for item in learning_path.courses %}
                         <div class="mb-2 border border-{{ item.course_type }} rounded-md 2xl:inline-flex 2xl:px-1 2xl:border-none 2xl:rounded-none">
-                            <p class="max-2xl:hidden 2xl:w-6">{{ loop.index }}. </p>
-                            <p class="text-{{ item.course_type }} font-medium capitalize text-center 2xl:text-left 2xl:w-32">{{ item.course_type }}</p>
-                            <p class="capitalize text-center 2xl:text-left 2xl:w-96">{{ item.course_name }}</p>
-                            <div class="flex justify-center 2xl:justify-start 2xl:w-auto">
+                            <p class="max-2xl:hidden 2xl:min-w-6">{{ loop.index }}. </p>
+                            <p class="text-{{ item.course_type }} font-medium capitalize text-center 2xl:text-left 2xl:min-w-32">{{ item.course_type }}</p>
+                            <p class="capitalize text-center 2xl:text-left 2xl:min-w-96">{{ item.course_name }}</p>
+                            <div class="flex justify-center 2xl:justify-start 2xl:w-full">
                                 <span>
-                                    (
-                                        {% for name, url in item.course_links.items() %}
-                                            <a class="text-blue no-underline hover:underline hover:text-blue-700 capitalize" href="{{ url }}">{{ name }}</a>
-                                            {% if not loop.last %}
-                                                |
-                                            {% endif %}
-                                        {% endfor %}
-                                    )
+                                    {% for name, url in item.course_links.items() %}
+                                        <a class="text-blue no-underline hover:underline hover:text-blue-700 capitalize" href="{{ url }}">{{ name }}</a>
+                                        {% if not loop.last %} | {% endif %}
+                                    {% endfor %}
                                 </span>
                             </div>
                         </div>
