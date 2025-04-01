@@ -8,6 +8,13 @@
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d1071%26UserMode%3d0"
                 }
+            },
+            {
+                "course_name": "Qualys Enterprise TruRisk™ Platform Foundations",
+                "course_type": "foundation",
+                "course_links": {
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1102%26UserMode%3D0"
+                }
             }
         ]
     }
