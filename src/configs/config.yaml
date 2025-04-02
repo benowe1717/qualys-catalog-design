@@ -7,18 +7,18 @@
 # [1] https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
 
 files:
-  templates_folder: 'templates/'
-  output_folder: 'output/'
-  output_file: 'index.html'
-  core_file: './core_learning_paths.json'
-  application_file: './application_learning_paths.json'
+  templates_folder: 
+  output_folder: 
+  output_file: 
+  core_file: 
+  application_file: 
 base_urls:
   local:
-    css: './output.css'
-    logo: './qualys-training-and-certification.png'
+    css: 
+    logo: 
   stage:
-    css: 'https://qualys.stage.sumtotal.host/Core/38.sumtfile'
-    logo: 'https://qualys.stage.sumtotal.host/Core/37.sumtfile'
+    css: 
+    logo: 
   production:
-    css: 'https://qualys.sumtotal.host/Core/38.sumtfile'
-    logo: 'https://qualys.sumtotal.host/Core/37.sumtfile'
+    css: 
+    logo: 
