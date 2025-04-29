@@ -60,12 +60,20 @@ def main() -> int:
         print(exc)
         return -1
 
-    minified_html_content = minify_html_content(html_content)
-    result = write_html_file(
-        config['files']['output_folder'],
-        config['files']['output_file'],
-        minified_html_content
-    )
+    if parseargs.action != 'local':
+        minified_html_content = minify_html_content(html_content)
+        result = write_html_file(
+            config['files']['output_folder'],
+            config['files']['output_file'],
+            minified_html_content
+        )
+    else:
+        result = write_html_file(
+            config['files']['output_folder'],
+            config['files']['output_file'],
+            html_content
+        )
+
     if not result:
         return -1
 
