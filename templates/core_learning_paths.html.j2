@@ -2,28 +2,31 @@
     <p class="text-3xl font-semibold">Core Learning Paths</p>
 </div>
 <div class="py-2 sm:ml-6">
-    <div class="flex flex-col space-y-6 md:grid md:grid-cols-2 md:space-y-0 md:gap-2">
-        {% for learning_path in core_learning_paths %}
-            <div class="p-2 border-2 border-solid border-black rounded-md bg-white-600 shadow-md shadow-gray sm:col-span-2 lg:col-auto">
-                <p class="text-2xl font-semibold pb-4 text-center 2xl:text-left">{{ learning_path.name }}</p>
-                <div>
-                    {% for item in learning_path.courses %}
-                        <div class="mb-2 border border-{{ item.course_type }} rounded-md 2xl:inline-flex 2xl:px-1 2xl:border-none 2xl:rounded-none">
-                            <p class="max-2xl:hidden 2xl:min-w-6">{{ loop.index }}. </p>
-                            <p class="text-{{ item.course_type }} font-medium capitalize text-center 2xl:text-left 2xl:min-w-32">{{ item.course_type }}</p>
-                            <p class="capitalize text-center 2xl:text-left 2xl:min-w-96">{{ item.course_name }}</p>
-                            <div class="flex justify-center 2xl:justify-start 2xl:w-full">
-                                <span>
-                                    {% for name, url in item.course_links.items() %}
-                                        <a class="text-blue no-underline hover:underline hover:text-blue-700 capitalize" href="{{ url }}">{{ name }}</a>
-                                        {% if not loop.last %} | {% endif %}
-                                    {% endfor %}
-                                </span>
-                            </div>
-                        </div>
-                    {% endfor %}
+    <div class="grid grid-cols-1 2xl:grid-cols-2 gap-2">
+    {% for learning_path in core_learning_paths %}
+        <div class="p-2 2xl:p-4 rounded-md opacity-85 bg-slateblue-100">
+            <h2 class="text-2xl font-semibold pb-4">{{ learning_path.name }}</h2>
+            {% for item in learning_path.courses %}
+            <div class="mb-2 flex flex-row justify-start">
+                <div class="w-[20%]">
+                    <div class="inline-flex">
+                        <p class="text-black mr-2">{{ loop.index }}. </p>
+                        <p class="font-medium capitalize text-{{ item.course_type }}">{{ item.course_type }}</p>
+                    </div>
+                </div>
+                <div class="w-[80%]">
+                    <div class="inline-flex justify-between w-full">
+                        <p class="capitalize text-black w-[60%]">{{ item.course_name }}</p>
+                        <span class="w-[30%]">
+                        {% for name, url in item.course_links.items() %}
+                            <a class="text-blue no-underline hover:underline hover:text-blue-700 capitalize" href="{{ url }}">{{ name }}</a> {% if not loop.last %} | {% endif %}
+                        {% endfor %}
+                        </span>
+                    </div>
                 </div>
             </div>
-        {% endfor %}
+            {% endfor %}
+        </div>
+    {% endfor %}
     </div>
 </div>

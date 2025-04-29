@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'wave-001': "url('./background-image-001.png')",
+      }
+    },
     colors: {
       red: {
         DEFAULT: '#ed2e26',
@@ -15,6 +19,7 @@ module.exports = {
         DEFAULT: '#262626',
       },
       slateblue: {
+        100: '#dee8f1',
         DEFAULT: '#9bc0e0',
       },
       gray: {
