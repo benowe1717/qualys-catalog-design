@@ -637,6 +637,10 @@ video {
   background-image: url('./background-image-001.png');
 }
 
+.bg-\[url\(\'https\:\/\/qualys\.stage\.sumtotal\.host\/Core\/46\.sumtfile\'\)\] {
+  background-image: url('https://qualys.stage.sumtotal.host/Core/46.sumtfile');
+}
+
 .bg-contain {
   background-size: contain;
 }
