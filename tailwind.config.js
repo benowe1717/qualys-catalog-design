@@ -19,7 +19,9 @@ module.exports = {
         DEFAULT: '#262626',
       },
       slateblue: {
+        50: '#edf3f7',
         100: '#dee8f1',
+        150: '#dbe6f0',
         DEFAULT: '#9bc0e0',
       },
       gray: {

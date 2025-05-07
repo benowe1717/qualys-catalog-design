@@ -8,12 +8,10 @@
     <title>Qualys Catalog</title>
 </head>
 
-<body class="text-black bg-none xl:bg-contain xl:bg-repeat-y xl:bg-right-top" style="background-image: url('./background-image-001.png');">
-    <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8 py-2 sm:py-6 lg:py-8">
-        {% include "heading.html.j2" %}
+<body class="text-black">
+    <div class="max-w-[90%] sm:max-w-[95%] mx-auto mt-8 bg-no-repeat bg-contain bg-right-top bg-[url('{{ background }}')]">
         {% include "intro.html.j2" %}
-        {% include "core_learning_paths.html.j2" %}
-        {% include "application_learning_paths.html.j2" %}
+        {% include "learning_paths.html.j2" %}
     </div>
 </body>
 

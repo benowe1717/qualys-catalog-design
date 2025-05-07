@@ -21,27 +21,28 @@ def main() -> int:
     template_vars = {
         'css': '',
         'logo': '',
-        'core_learning_paths': {},
-        'application_learning_paths': {}
+        'background': '',
+        'levels_of_training': '',
+        'learning_paths': []
     }
 
     config = parseargs.config_file.yaml
     try:
         template_vars['css'] = config['base_urls'][parseargs.action]['css']
         template_vars['logo'] = config['base_urls'][parseargs.action]['logo']
+        template_vars['background'] = config['base_urls'][parseargs.action]['background']
+        template_vars['levels_of_training'] = config['base_urls'][parseargs.action]['levels_of_training']
 
-        try:
-            json_data = load_learning_path(config['files']['core_file'])
-            template_vars['core_learning_paths'] = json_data
-
-            json_data = load_learning_path(config['files']['application_file'])
-            template_vars['application_learning_paths'] = json_data
-        except json.JSONDecodeError as exc:
-            print(exc)
-            return -1
-        except ValueError as exc:
-            print(exc)
-            return -1
+        for _, values in config['files']['learning_paths'].items():
+            try:
+                json_data = load_learning_path(values['file'])
+                template_vars['learning_paths'].append({
+                    'title': values['title'],
+                    'paths': json_data
+                })
+            except (json.JSONDecodeError, ValueError) as e:
+                print(e)
+                return -1
 
     except KeyError as exc:
         print(f'ERROR: {exc}')
