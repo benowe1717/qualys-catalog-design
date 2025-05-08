@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./src/**/*.{html,js}",
+    "./templates/**/*.html.j2",
+    "./output/**/*.{html,js}"
+  ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'wave-001': "url('./background-image-001.png')",
-      }
-    },
+    extend: {},
     colors: {
       red: {
         DEFAULT: '#ed2e26',
