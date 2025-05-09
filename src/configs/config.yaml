@@ -10,15 +10,38 @@ files:
   templates_folder: 
   output_folder: 
   output_file: 
-  core_file: 
-  application_file: 
+  learning_paths:
+    core_file: 
+      title:
+      file:
+    application_file: 
+      title:
+      file:
 base_urls:
   local:
     css: 
+    background: 
     logo: 
+      href:
+      alt:
+    levels_of_training:
+      href: 
+      alt: 
   stage:
     css: 
+    background: 
     logo: 
+      href:
+      alt:
+    levels_of_training:
+      href: 
+      alt: 
   production:
     css: 
+    background: 
     logo: 
+      href:
+      alt:
+    levels_of_training:
+      href: 
+      alt: 

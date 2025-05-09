@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./src/**/*.{html,js}",
+    "./templates/**/*.html.j2",
+    "./output/**/*.{html,js}"
+  ],
   theme: {
     extend: {},
     colors: {
@@ -15,6 +19,9 @@ module.exports = {
         DEFAULT: '#262626',
       },
       slateblue: {
+        50: '#edf3f7',
+        100: '#dee8f1',
+        150: '#dbe6f0',
         DEFAULT: '#9bc0e0',
       },
       gray: {
