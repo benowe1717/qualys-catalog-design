@@ -35,6 +35,15 @@
                 }
             },
             {
+                "course_name": "Operationalizing Risk Surface Management with Qualys Enterprise TruRisk™ Management (ETM)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1149%26UserMode%3D0",
+                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1152%26UserMode%3D0",
+                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1151%26UserMode%3D0"
+                }
+            },
+            {
                 "course_name": "Cloud Agent (CA)",
                 "course_type": "specialist",
                 "course_links": {
@@ -59,15 +68,6 @@
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d20%26UserMode%3d0",
                     "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d73%26UserMode%3d0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d225%26UserMode%3d0"
-                }
-            },
-            {
-                "course_name": "Operationalizing Risk Surface Management with Qualys Enterprise TruRisk™ Management (ETM)",
-                "course_type": "specialist",
-                "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1149%26UserMode%3D0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1152%26UserMode%3D0",
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1151%26UserMode%3D0"
                 }
             },
             {
