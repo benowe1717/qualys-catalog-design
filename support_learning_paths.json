@@ -1,0 +1,180 @@
+[
+    {
+        "name": "VMDR1 Learning Path",
+        "courses": [
+            {
+                "course_name": "Vulnerability Management Detection and Response (VMDR) - Self-Paced Course",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Administration Module - Self-Paced Course",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Vulnerability Management (VM) API Training",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Vulnerability Management (VM) Backend Architecture",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "VMDR 1 - Support Tools",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "FP/FN QID Support Troubleshooting - Self-Paced Course",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            }
+        ]
+    },
+    {
+        "name": "VMDR2-CA & CSAM Learning Path",
+        "courses": [
+            {
+                "course_name": "Cloud Agent (CA) - Self-Paced Course",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Cloud Agent - Support ILT Course v1.0",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "CyberSecurity Asset Management (CSAM) - Self-Paced Course",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            }
+        ]
+    },
+    {
+        "name": "PC Learning Path",
+        "courses": [
+            {
+                "course_name": "Policy Compliance (PC) - Foundation - Self-Paced Course",
+                "course_type": "foundation",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Policy Compliance (PC) - Self-Paced Course",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Policy Compliance Support Training",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            }
+        ]
+    },
+    {
+        "name": "ETP Introduction Learning Path",
+        "courses": [
+            {
+                "course_name": "Qualys Enterprise TruRisk™ Platform - Self-Paced Course",
+                "course_type": "foundation",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            }
+        ]
+    },
+    {
+        "name": "VMDR2-PM & QGS Learning Path",
+        "courses": [
+            {
+                "course_name": "QGS FO Training - Self-Paced Course",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "QGS Support Training",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Patch Management Support ILT",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            },
+            {
+                "course_name": "Patch Management",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "#",
+                    "instructor-led": "#",
+                    "exam": "#"
+                }
+            }
+        ]
+    }
+]
