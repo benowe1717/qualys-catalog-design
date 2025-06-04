@@ -35,7 +35,7 @@
                 }
             },
             {
-                "course_name": "Operationalizing Risk Surface Management with Qualys Enterprise TruRisk™ Management (ETM)",
+                "course_name": "Enterprise TruRisk™ Management (ETM)",
                 "course_type": "specialist",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1149%26UserMode%3D0",
