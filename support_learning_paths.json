@@ -3,56 +3,48 @@
         "name": "VMDR1 Learning Path",
         "courses": [
             {
-                "course_name": "Vulnerability Management Detection and Response (VMDR) - Self-Paced Course",
+                "course_name": "Vulnerability Management Detection and Response (VMDR)",
                 "course_type": "specialist",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d25%26UserMode%3d0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d101%26UserMode%3d0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d228%26UserMode%3d0"
                 }
             },
             {
-                "course_name": "Administration Module - Self-Paced Course",
+                "course_name": "Administration Module",
                 "course_type": "specialist",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d2%26UserMode%3d0",
-                    "instructor-led": "#",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d226%26UserMode%3d0"
                 }
             },
             {
                 "course_name": "Vulnerability Management (VM) API Training",
-                "course_type": "specialist",
+                "course_type": "support",
                 "course_links": {
-                    "self-paced": "#",
-                    "instructor-led": "#",
-                    "exam": "#"
+                    "document": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d409%26UserMode%3d0"
                 }
             },
             {
                 "course_name": "Vulnerability Management (VM) Backend Architecture",
-                "course_type": "specialist",
+                "course_type": "support",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d49%26UserMode%3d0",
-                    "instructor-led": "#",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d441%26UserMode%3d0"
                 }
             },
             {
                 "course_name": "VMDR 1 - Support Tools",
-                "course_type": "specialist",
+                "course_type": "support",
                 "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d47%26UserMode%3d0",
-                    "instructor-led": "#",
-                    "exam": "#"
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d47%26UserMode%3d0"
                 }
             },
             {
-                "course_name": "FP/FN QID Support Troubleshooting - Self-Paced Course",
-                "course_type": "specialist",
+                "course_name": "FP/FN QID Support Troubleshooting",
+                "course_type": "support",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d42%26UserMode%3d0",
-                    "instructor-led": "#",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d438%26UserMode%3d0"
                 }
             }
@@ -62,76 +54,26 @@
         "name": "VMDR2-CA & CSAM Learning Path",
         "courses": [
             {
-                "course_name": "Cloud Agent (CA) - Self-Paced Course",
+                "course_name": "Cloud Agent (CA)",
                 "course_type": "specialist",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d3%26UserMode%3d0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d78%26UserMode%3d0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d216%26UserMode%3d0"
                 }
             },
             {
-                "course_name": "Cloud Agent - Support ILT Course v1.0",
-                "course_type": "specialist",
+                "course_name": "Cloud Agent Support Training Materials",
+                "course_type": "support",
                 "course_links": {
-                    "self-paced": "#",
-                    "instructor-led": "#",
-                    "exam": "#"
+                    "document": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d399%26UserMode%3d0"
                 }
             },
             {
-                "course_name": "CyberSecurity Asset Management (CSAM) - Self-Paced Course",
+                "course_name": "CyberSecurity Asset Management (CSAM)",
                 "course_type": "specialist",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d7%26UserMode%3d0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d120%26UserMode%3d0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d218%26UserMode%3d0"
-                }
-            }
-        ]
-    },
-    {
-        "name": "PC Learning Path",
-        "courses": [
-            {
-                "course_name": "Policy Compliance (PC) - Foundation - Self-Paced Course",
-                "course_type": "foundation",
-                "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d14%26UserMode%3d0",
-                    "instructor-led": "#",
-                    "exam": "#"
-                }
-            },
-            {
-                "course_name": "Policy Compliance (PC) - Self-Paced Course",
-                "course_type": "specialist",
-                "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d158%26UserMode%3d0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d63%26UserMode%3d0",
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d169%26UserMode%3d0"
-                }
-            },
-            {
-                "course_name": "Policy Compliance Support Training",
-                "course_type": "specialist",
-                "course_links": {
-                    "self-paced": "#",
-                    "instructor-led": "#",
-                    "exam": "#"
-                }
-            }
-        ]
-    },
-    {
-        "name": "ETP Introduction Learning Path",
-        "courses": [
-            {
-                "course_name": "Qualys Enterprise TruRisk™ Platform - Self-Paced Course",
-                "course_type": "foundation",
-                "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1102%26UserMode%3D0",
-                    "instructor-led": "#",
-                    "exam": "#"
                 }
             }
         ]
@@ -140,30 +82,26 @@
         "name": "VMDR2-PM & QGS Learning Path",
         "courses": [
             {
-                "course_name": "QGS FO Training - Self-Paced Course",
-                "course_type": "specialist",
+                "course_name": "QGS FO Training",
+                "course_type": "support",
                 "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D44%26UserMode%3D0",
-                    "instructor-led": "#",
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D443%26UserMode%3D0"
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3fActivityId%3d44%26UserMode%3d0",
+                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3fActivityId%3d443%26UserMode%3d0"
                 }
             },
             {
                 "course_name": "QGS Support Training",
-                "course_type": "specialist",
+                "course_type": "support",
                 "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D48%26UserMode%3D0",
-                    "instructor-led": "#",
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D442%26UserMode%3D0"
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3fActivityId%3d48%26UserMode%3d0",
+                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3fActivityId%3d442%26UserMode%3d0"
                 }
             },
             {
-                "course_name": "Patch Management Support ILT",
-                "course_type": "specialist",
+                "course_name": "Patch Management Support Training Materials",
+                "course_type": "support",
                 "course_links": {
-                    "self-paced": "#",
-                    "instructor-led": "#",
-                    "exam": "#"
+                    "document": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3fActivityId%3d412%26UserMode%3d0"
                 }
             },
             {
@@ -171,8 +109,46 @@
                 "course_type": "specialist",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d12%26UserMode%3d0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d106%26UserMode%3d0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d229%26UserMode%3d0"
+                }
+            }
+        ]
+    },
+    {
+        "name": "PC Learning Path",
+        "courses": [
+            {
+                "course_name": "Policy Compliance (PC) Foundations",
+                "course_type": "foundation",
+                "course_links": {
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d14%26UserMode%3d0"
+                }
+            },
+            {
+                "course_name": "Policy Compliance (PC)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d158%26UserMode%3d0",
+                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d169%26UserMode%3d0"
+                }
+            },
+            {
+                "course_name": "Policy Compliance Support Training Materials",
+                "course_type": "support",
+                "course_links": {
+                    "document": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d378%26UserMode%3d0"
+                }
+            }
+        ]
+    },
+    {
+        "name": "ETP Introduction Learning Path",
+        "courses": [
+            {
+                "course_name": "Qualys Enterprise TruRisk™ Platform Foundations",
+                "course_type": "foundation",
+                "course_links": {
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3fActivityId%3d1102%26UserMode%3d0"
                 }
             }
         ]
