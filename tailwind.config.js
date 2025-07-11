@@ -56,6 +56,9 @@ module.exports = {
       specialist: {
         DEFAULT: '#ed2e26',
       },
+      support: {
+        DEFAULT: '#043471',
+      }
     },
   },
   plugins: [],

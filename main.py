@@ -23,15 +23,14 @@ def main() -> int:
         'logo': '',
         'background': '',
         'levels_of_training': '',
-        'learning_paths': []
     }
 
     config = parseargs.config_file.yaml
     try:
-        template_vars['css'] = config['base_urls'][parseargs.action]['css']
-        template_vars['logo'] = config['base_urls'][parseargs.action]['logo']
-        template_vars['background'] = config['base_urls'][parseargs.action]['background']
-        template_vars['levels_of_training'] = config['base_urls'][parseargs.action]['levels_of_training']
+        template_vars = build_template_vars(
+            parseargs.action, template_vars, config['base_urls']
+        )
+        template_vars['learning_paths'] = []
 
         for _, values in config['files']['learning_paths'].items():
             try:
@@ -79,6 +78,34 @@ def main() -> int:
         return -1
 
     return 0
+
+
+def build_template_vars(
+        action: str,
+        template_vars: dict,
+        config: dict
+) -> dict:
+    """
+    Iterate over the configured values for the given action and add them
+    to the template_vars dictionary
+
+    :param action: The action to build against, either local|stage|prod
+    :type action: str
+    :param template_vars: The dictionary of required variables
+    :type template_vars: dict
+    :param config: The dictionary of values to fill in the template variables
+    :type config: dict
+    :raises KeyError: When the configuration is missing a required template
+    variables
+    :return: The template variables and their values
+    :rtype: dict
+    """
+    for key, _ in template_vars.items():
+        try:
+            template_vars[key] = config[action][key]
+        except KeyError as err:
+            raise KeyError(f'Missing Key: {err}') from err
+    return template_vars
 
 
 def handle_args() -> ParseArgs:
