@@ -637,10 +637,6 @@ video {
   background-image: url('./background-image-001.png');
 }
 
-.bg-\[url\(\'https\:\/\/qualys\.stage\.sumtotal\.host\/Core\/46\.sumtfile\'\)\] {
-  background-image: url('https://qualys.stage.sumtotal.host/Core/46.sumtfile');
-}
-
 .bg-\[url\(\'https\:\/\/qualys\.sumtotal\.host\/Core\/422\.sumtfile\'\)\] {
   background-image: url('https://qualys.sumtotal.host/Core/422.sumtfile');
 }
@@ -719,6 +715,11 @@ video {
 .text-specialist {
   --tw-text-opacity: 1;
   color: rgb(237 46 38 / var(--tw-text-opacity, 1));
+}
+
+.text-support {
+  --tw-text-opacity: 1;
+  color: rgb(4 52 113 / var(--tw-text-opacity, 1));
 }
 
 .no-underline {
