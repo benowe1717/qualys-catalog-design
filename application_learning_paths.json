@@ -10,7 +10,7 @@
                 }
             },
             {
-                "course_name": "VMDR Onboarding",
+                "course_name": "Vulnerability Management Detection and Response (VMDR)",
                 "course_type": "onboarding",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d160%26UserMode%3d0"
@@ -85,7 +85,7 @@
         "name": "Attack Surface Management Learning Path",
         "courses": [
             {
-                "course_name": "EASM Onboarding",
+                "course_name": "Extended Attack Surface Management (EASM)",
                 "course_type": "onboarding",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d164%26UserMode%3d0"
@@ -115,7 +115,7 @@
         "name": "Risk Remediation Learning Path",
         "courses": [
             {
-                "course_name": "Patch Management Onboarding",
+                "course_name": "Patch Management (PM)",
                 "course_type": "onboarding",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d535%26UserMode%3d0"
@@ -134,9 +134,15 @@
                 "course_name": "Patch Management (PM)",
                 "course_type": "specialist",
                 "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d12%26UserMode%3d0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d106%26UserMode%3d0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d229%26UserMode%3d0"
+                }
+            },
+            {
+                "course_name": "TruRisk™ Eliminate (TE)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1284%26UserMode%3D0",
+                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1246%26UserMode%3D0"
                 }
             },
             {
@@ -153,7 +159,7 @@
         "name": "Policy Compliance Learning Path",
         "courses": [
             {
-                "course_name": "Policy Compliance Foundations",
+                "course_name": "Policy Compliance (PC)",
                 "course_type": "foundation",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d14%26UserMode%3d0"
@@ -163,9 +169,15 @@
                 "course_name": "Policy Compliance (PC)",
                 "course_type": "specialist",
                 "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d158%26UserMode%3d0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d63%26UserMode%3d0",
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d169%26UserMode%3d0"
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d158%26UserMode%3d0"
+                }
+            },
+            {
+                "course_name": "Policy Audit (PA)",
+                "course_type": "specialist",
+                "course_links": {
+                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1282%26UserMode%3D0",
+                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1283%26UserMode%3D0"
                 }
             },
             {
@@ -190,7 +202,7 @@
         "name": "PCI Compliance Learning Path",
         "courses": [
             {
-                "course_name": "PCI Compliance Foundations",
+                "course_name": "PCI Compliance (PCI)",
                 "course_type": "foundation",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d15%26UserMode%3d0"
@@ -213,9 +225,15 @@
                 "course_name": "Web Application Scanning (WAS)",
                 "course_type": "specialist",
                 "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d161%26UserMode%3d0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d59%26UserMode%3d0",
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d219%26UserMode%3d0"
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d161%26UserMode%3d0"
+                }
+            },
+            {
+                "course_name": "TotalAppSec (TAS)",
+                "course_type": "specialist",
+                "course_links": {
+                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1250%26UserMode%3D0",
+                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1274%26UserMode%3D0"
                 }
             }
         ]
@@ -224,7 +242,7 @@
         "name": "Cloud Security Learning Path",
         "courses": [
             {
-                "course_name": "TotalCloud Onboarding",
+                "course_name": "TotalCloud (TC)",
                 "course_type": "onboarding",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d165%26UserMode%3d0"
@@ -262,7 +280,7 @@
         "name": "Endpoint Security Learning Path",
         "courses": [
             {
-                "course_name": "Endpoint Detection and Response Foundations",
+                "course_name": "Endpoint Detection and Response (EDR)",
                 "course_type": "foundation",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d8%26UserMode%3d0"
