@@ -105,11 +105,17 @@
                 }
             },
             {
-                "course_name": "Patch Management",
+                "course_name": "Patch Management (PM)",
                 "course_type": "specialist",
                 "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d12%26UserMode%3d0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d229%26UserMode%3d0"
+                }
+            },
+            {
+                "course_name": "TruRisk™ Eliminate (TE)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1284%26UserMode%3D0"
                 }
             }
         ]
@@ -118,7 +124,7 @@
         "name": "PC Learning Path",
         "courses": [
             {
-                "course_name": "Policy Compliance (PC) Foundations",
+                "course_name": "Policy Compliance (PC)",
                 "course_type": "foundation",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d14%26UserMode%3d0"
@@ -128,8 +134,14 @@
                 "course_name": "Policy Compliance (PC)",
                 "course_type": "specialist",
                 "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d158%26UserMode%3d0",
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d169%26UserMode%3d0"
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d158%26UserMode%3d0"
+                }
+            },
+            {
+                "course_name": "Policy Audit (PA)",
+                "course_type": "specialist",
+                "course_links": {
+                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1283%26UserMode%3D0"
                 }
             },
             {
@@ -145,7 +157,7 @@
         "name": "ETP Introduction Learning Path",
         "courses": [
             {
-                "course_name": "Qualys Enterprise TruRisk™ Platform Foundations",
+                "course_name": "Qualys Enterprise TruRisk™ Platform",
                 "course_type": "foundation",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3fActivityId%3d1102%26UserMode%3d0"
