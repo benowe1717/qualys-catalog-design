@@ -74,9 +74,15 @@
                 "course_name": "Patch Management (PM)",
                 "course_type": "specialist",
                 "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d12%26UserMode%3d0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d106%26UserMode%3d0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d229%26UserMode%3d0"
+                }
+            },
+            {
+                "course_name": "TruRisk™ Eliminate (TE)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1284%26UserMode%3D0",
+                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1246%26UserMode%3D0"
                 }
             }
         ]
@@ -222,16 +228,10 @@
         "name": "Application and Security Learning Path",
         "courses": [
             {
-                "course_name": "Web Application Scanning (WAS)",
-                "course_type": "specialist",
-                "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d161%26UserMode%3d0"
-                }
-            },
-            {
                 "course_name": "TotalAppSec (TAS)",
                 "course_type": "specialist",
                 "course_links": {
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d1295%26UserMode%3d0",
                     "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1250%26UserMode%3D0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1274%26UserMode%3D0"
                 }
@@ -312,6 +312,7 @@
                 "course_type": "specialist",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d159%26UserMode%3d0",
+                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D139%26UserMode%3D0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d210%26UserMode%3d0"
                 }
             },
