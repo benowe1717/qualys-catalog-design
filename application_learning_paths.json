@@ -35,15 +35,6 @@
                 }
             },
             {
-                "course_name": "Enterprise TruRisk™ Management (ETM)",
-                "course_type": "specialist",
-                "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1149%26UserMode%3D0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1152%26UserMode%3D0",
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1151%26UserMode%3D0"
-                }
-            },
-            {
                 "course_name": "Cloud Agent (CA)",
                 "course_type": "specialist",
                 "course_links": {
@@ -71,30 +62,34 @@
                 }
             },
             {
-                "course_name": "Patch Management (PM)",
-                "course_type": "specialist",
-                "course_links": {
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d229%26UserMode%3d0"
-                }
-            },
-            {
                 "course_name": "TruRisk™ Eliminate (TE)",
                 "course_type": "specialist",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1284%26UserMode%3D0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1246%26UserMode%3D0"
+                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1246%26UserMode%3D0",
+                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d1314%26UserMode%3d0"
                 }
             }
         ]
     },
     {
-        "name": "Attack Surface Management Learning Path",
+        "name": "Risk Surface Management Learning Path",
         "courses": [
             {
+
                 "course_name": "Extended Attack Surface Management (EASM)",
                 "course_type": "onboarding",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d164%26UserMode%3d0"
+                }
+            },
+            {
+                "course_name": "Enterprise TruRisk™ Management (ETM)",
+                "course_type": "specialist",
+                "course_links": {
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1149%26UserMode%3D0",
+                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1152%26UserMode%3D0",
+                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1151%26UserMode%3D0"
                 }
             },
             {
@@ -104,15 +99,6 @@
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d7%26UserMode%3d0",
                     "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d120%26UserMode%3d0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d218%26UserMode%3d0"
-                }
-            },
-            {
-                "course_name": "Cloud Agent (CA)",
-                "course_type": "specialist",
-                "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d3%26UserMode%3d0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d78%26UserMode%3d0",
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d216%26UserMode%3d0"
                 }
             }
         ]
@@ -137,18 +123,12 @@
                 }
             },
             {
-                "course_name": "Patch Management (PM)",
-                "course_type": "specialist",
-                "course_links": {
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d229%26UserMode%3d0"
-                }
-            },
-            {
                 "course_name": "TruRisk™ Eliminate (TE)",
                 "course_type": "specialist",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1284%26UserMode%3D0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1246%26UserMode%3D0"
+                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1246%26UserMode%3D0",
+                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d1314%26UserMode%3d0"
                 }
             },
             {
