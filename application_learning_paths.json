@@ -107,13 +107,6 @@
         "name": "Risk Remediation Learning Path",
         "courses": [
             {
-                "course_name": "Patch Management (PM)",
-                "course_type": "onboarding",
-                "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d535%26UserMode%3d0"
-                }
-            },
-            {
                 "course_name": "Cloud Agent (CA)",
                 "course_type": "specialist",
                 "course_links": {
@@ -152,16 +145,10 @@
                 }
             },
             {
-                "course_name": "Policy Compliance (PC)",
-                "course_type": "specialist",
-                "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d158%26UserMode%3d0"
-                }
-            },
-            {
                 "course_name": "Policy Audit (PA)",
                 "course_type": "specialist",
                 "course_links": {
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d1329%26UserMode%3d0",
                     "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1282%26UserMode%3D0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1283%26UserMode%3D0"
                 }
@@ -238,12 +225,11 @@
                 }
             },
             {
-                "course_name": "Container Security",
+                "course_name": "Qualys Kubernetes and Container Security (KCS)",
                 "course_type": "specialist",
                 "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d6%26UserMode%3d0",
-                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d108%26UserMode%3d0",
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d221%26UserMode%3d0"
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1330%26UserMode%3D0",
+                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1316%26UserMode%3D0"
                 }
             },
             {
@@ -270,7 +256,8 @@
                 "course_name": "Endpoint Detection and Response (EDR)",
                 "course_type": "specialist",
                 "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d11%26UserMode%3d0",
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d1340%26UserMode%3d0",
+                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d102%26UserMode%3d0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d188%26UserMode%3d0"
                 }
             }
