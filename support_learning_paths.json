@@ -105,17 +105,12 @@
                 }
             },
             {
-                "course_name": "Patch Management (PM)",
-                "course_type": "specialist",
-                "course_links": {
-                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d229%26UserMode%3d0"
-                }
-            },
-            {
                 "course_name": "TruRisk™ Eliminate (TE)",
                 "course_type": "specialist",
                 "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1284%26UserMode%3D0"
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1284%26UserMode%3D0",
+                    "instructor-led": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1246%26UserMode%3D0",
+                    "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d1314%26UserMode%3d0"
                 }
             }
         ]
@@ -131,16 +126,10 @@
                 }
             },
             {
-                "course_name": "Policy Compliance (PC)",
-                "course_type": "specialist",
-                "course_links": {
-                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d158%26UserMode%3d0"
-                }
-            },
-            {
                 "course_name": "Policy Audit (PA)",
                 "course_type": "specialist",
                 "course_links": {
+                    "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d1329%26UserMode%3d0",
                     "exam": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D1283%26UserMode%3D0"
                 }
             },
@@ -161,6 +150,13 @@
                 "course_type": "foundation",
                 "course_links": {
                     "self-paced": "https://qualys.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3fActivityId%3d1102%26UserMode%3d0"
+                }
+            },
+            {
+                "course_name": "ETP All Major Sensors",
+                "course_type": "support",
+                "course_links": {
+                    "instructor-led": "https://qualys.sumtotal.host/rcore/c/pillarRedirect?relyingParty=LM&url=app%2fmanagement%2fLMS_ActDetails.aspx%3fActivityId%3d1412%26UserMode%3d0"
                 }
             }
         ]
